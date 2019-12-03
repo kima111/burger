@@ -1,0 +1,9 @@
+<li>
+	{{burger_name}}
+
+	<button class="devour-burger" data-id="{{id}}" data-devour="{{devoured}}">
+		{{#if devoured}}DEVOUR!{{else}}PUT BACK ON MENU!{{/if}}
+	</button>
+
+	<button class="delete-burger" data-id="{{this.id}}">DELETE!</button>
+</li>
