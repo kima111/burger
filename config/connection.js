@@ -4,9 +4,9 @@ var mysql = require("mysql");
 var connection = mysql.createConnection({
   host: "qzkp8ry756433yd4.cbetxkdyhwsb.us-east-1.rds.amazonaws.com",
   port: 3306,
-  user: "ry0vho3omjhx25ovu",
+  user: "y0vho3omjhx25ovu",
   password: "j9xeawtwkpks096l",
-  database: "bcuo8xpq4n48tijjl"
+  database: "cuo8xpq4n48tijjl"
 });
 
 // Make connection.
